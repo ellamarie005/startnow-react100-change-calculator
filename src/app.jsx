@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
 class App extends Component {
   constructor(props) {
@@ -76,10 +77,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <p></p>
+      <Money className="container">
         <div>
           <h1 className="text-white">Change Calculator</h1>
+          <p className="text-white">Change is inevitable in life! So let me count them for you!</p>
         </div>
         <hr className="bg-light"></hr>
         <div className="row">
@@ -147,7 +148,6 @@ class App extends Component {
                       <p className="font-weight-bold">Nickels</p>
                       <p name="nickels">{this.state.nickels}</p>
                     </div>
-
                   </div>
                   <div className="col">
                     <div className="card bg-light card-outline-secondary p-3 mb-3">
@@ -160,9 +160,15 @@ class App extends Component {
             </div>
           </div>
         </div>
-      </div >
+      </Money >
     )
   };
 }
 
+const Money = styled.div`
+padding: 40px;
+p {
+  font-size: 20px;
+}
+`
 export default App;

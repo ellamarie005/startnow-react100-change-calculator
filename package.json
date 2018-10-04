@@ -16,14 +16,15 @@
     "expect": "^1.20.2",
     "express": "^4.15.3",
     "json-loader": "^0.5.4",
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.11",
     "lodash-webpack-plugin": "^0.10.2",
     "morgan": "^1.8.1",
-    "nightmare": "^2.10.0",
+    "nightmare": "^3.0.1",
     "nightmare-react-utils": "^1.0.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "serve-favicon": "^2.0.1",
+    "styled-components": "^3.4.9",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
@@ -34,7 +35,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.4.3",
     "chai-as-promised": "^5.3.0",
-    "chai-http": "^3.0.0",
+    "chai-http": "^4.2.0",
     "csx": "^4.0.0",
     "enzyme": "^2.4.1",
     "eslint": "^3.15.0",
@@ -47,11 +48,11 @@
     "file-loader": "^0.11.2",
     "less": "^2.7.1",
     "less-plugin-autoprefix": "^1.5.1",
-    "mocha": "^3.0.2",
+    "mocha": "^5.2.0",
     "react-addons-test-utils": "^15.6.0",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
-    "url-loader": "^0.5.9"
+    "url-loader": "^1.1.1"
   },
   "repository": {
     "type": "git",
